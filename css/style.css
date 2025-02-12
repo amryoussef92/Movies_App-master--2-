@@ -3,6 +3,21 @@
 @tailwind utilities;
 
 * {
+  @apply m-0 p-0 box-border list-none no-underline scroll-pt-8;
+}
+
+html {
+  @apply scroll-smooth;
+}
+
+section {
+  @apply py-20 px-6;
+}
+
+body {
+  @apply font-[Poppins] bg-text text-bg;
+}
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,18 +27,18 @@
 }
 html {
   scroll-behavior: smooth;
-}
+} */
 /* custom scroll bar */
-html::-webkit-scrollbar {
+/* html::-webkit-scrollbar {
   width: 0.5rem;
   background-color: var(--text-color);
 }
 html::-webkit-scrollbar-thumb {
   background-color: var(--main-color);
   border-radius: 5rem;
-}
+} */
 /* custom scroll bar */
-:root {
+/* :root {
   --main-color: #ff2c1f;
   --text-color: #020307;
   --bg-color: #fff;
@@ -35,9 +50,9 @@ body {
   font-family: "Poppins", sans-serif;
   background: var(--text-color);
   color: var(--bg-color);
-}
+} */
 /* Navbar */
-
+/* 
 header.shadow {
   background-color: var(--bg-color);
   box-shadow: 0 0 4px rgb(14 55 54 / 15%);
@@ -47,7 +62,7 @@ header.shadow .navbar a {
 }
 header.shadow .logo {
   color: var(--text-color);
-}
+} */
 /* header .logo {
   font-size: 1.1rem;
   font-weight: 600;

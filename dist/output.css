@@ -981,18 +981,17 @@ body {
 
 /* Navbar */
 
+/* 
 header.shadow {
   background-color: var(--bg-color);
   box-shadow: 0 0 4px rgb(14 55 54 / 15%);
 }
-
 header.shadow .navbar a {
   color: var(--text-color);
 }
-
 header.shadow .logo {
   color: var(--text-color);
-}
+} */
 
 /* header .logo {
   font-size: 1.1rem;
